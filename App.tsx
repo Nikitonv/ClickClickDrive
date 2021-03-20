@@ -11,7 +11,7 @@ function HomeScreen({ navigation }) {
           <View style={{flexDirection: 'row'}}>
             <Text style={styles.titles}>Mobile App Name
             </Text>
-            <Image style={{marginLeft:55, marginTop:38}}  source={require("./src/cogwheel.png")} />
+            <Image style={{marginLeft:55, marginTop:38}}  source={require("./cogwheel.png")} />
             
           </View>
                     <View style={styles.feedback}>
@@ -27,7 +27,7 @@ function HomeScreen({ navigation }) {
                         <Text style={styles.inside}>Statistik</Text>
                         <Text style={styles.secondinside}>Dir Deinen Lernfortschritt</Text>
                            </View> 
-                           <Image style={{marginLeft:45, }}  source={require("./src/one.png")} />
+                           <Image style={{marginLeft:45, }}  source={require("./one.png")} />
                       </TouchableOpacity>
                     </View>
                     <View>
@@ -36,7 +36,7 @@ function HomeScreen({ navigation }) {
                             <Text style={styles.inside}>Checkliste</Text>
                             <Text style={styles.secondinside}>Alle Schritte zum Fuhrerschein</Text>
                            </View> 
-                           <Image  style={{marginLeft:15 }}  source={require("./src/two.png") }/>
+                           <Image  style={{marginLeft:15 }}  source={require("./two.png") }/>
                         </TouchableOpacity>
                     </View>
                     <View>
@@ -45,7 +45,7 @@ function HomeScreen({ navigation }) {
                             <Text style={styles.inside}>Training</Text>
                             <Text style={styles.secondinside}>Schritt für Schritt</Text>
                            </View> 
-                           <Image style={{marginLeft:115 }} source={require("./src/three.png") }/>
+                           <Image style={{marginLeft:115 }} source={require("./three.png") }/>
                         </TouchableOpacity>
                     </View>
                     <View>
@@ -54,7 +54,7 @@ function HomeScreen({ navigation }) {
                             <Text style={styles.inside}>Fragenliste</Text>
                             <Text style={styles.secondinside}>Alle Fragen auf einen Blick</Text>
                            </View> 
-                           <Image style={{marginLeft:45 }}  resizeMode='contain' source={require("./src/four.png") }/>
+                           <Image style={{marginLeft:45 }}  resizeMode='contain' source={require("./four.png") }/>
                         </TouchableOpacity>
                     </View>
                     <View>
@@ -63,7 +63,7 @@ function HomeScreen({ navigation }) {
                             <Text style={styles.inside}>Prüfung</Text>
                             <Text style={styles.secondinside}>Offizielle Prüfungssimulation</Text>
                            </View> 
-                           <Image style={{marginLeft:35 }}  resizeMode='contain' source={require("./src/five.png") }/>
+                           <Image style={{marginLeft:35 }}  resizeMode='contain' source={require("./five.png") }/>
                         </TouchableOpacity>
                     </View>
             <StatusBar style='auto' />
